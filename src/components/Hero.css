@@ -1,0 +1,60 @@
+.hero {
+    position: relative;
+    min-height: 100vh;
+    /* Using a dark gradient as fallback if image isn't loaded */
+    background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.9)),
+        url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;
+    padding-top: 80px;
+    /* Accounts for navbar */
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, transparent 0%, var(--bg-primary) 100%);
+    pointer-events: none;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+}
+
+.hero-title {
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-md);
+    letter-spacing: 2px;
+    line-height: 1.1;
+    text-shadow: var(--shadow-md);
+}
+
+.hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xl);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    opacity: 0;
+    animation: fadeIn 0.8s ease forwards;
+}
+
+@media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: var(--spacing-sm);
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+}

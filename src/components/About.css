@@ -1,0 +1,133 @@
+.mb-md {
+    margin-bottom: var(--spacing-md);
+}
+
+.mb-lg {
+    margin-bottom: var(--spacing-lg);
+}
+
+.mt-lg {
+    margin-top: var(--spacing-lg);
+}
+
+.about-grid {
+    align-items: center;
+}
+
+.about-image-wrapper {
+    position: relative;
+    padding: var(--spacing-md);
+}
+
+.about-image {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    aspect-ratio: 4/5;
+    background: url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=1000&auto=format&fit=crop') center/cover no-repeat;
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+}
+
+.about-image::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    z-index: -1;
+    transition: transform var(--transition-slow);
+}
+
+.about-image-wrapper:hover .about-image::before {
+    transform: translate(-10px, -10px);
+}
+
+.experience-badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--accent);
+    color: var(--bg-primary);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+    z-index: 10;
+    transform: translateY(20px);
+}
+
+.experience-badge .years {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.experience-badge .text {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feature-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-sm);
+}
+
+.feature-list li {
+    position: relative;
+    padding-left: 24px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stats-row {
+    display: flex;
+    gap: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border);
+}
+
+.stat h4 {
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .about-image-wrapper {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .feature-list {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-row {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+}
