@@ -62,4 +62,44 @@
         display: none;
         /* Add mobile menu later if needed */
     }
+    
+    .logo a {
+        font-size: 1.2rem;
+    }
+}
+
+.nav-contact-icons {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-right: var(--spacing-sm);
+}
+
+.contact-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    transition: all var(--transition-fast);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-nav-btn.whatsapp:hover {
+    background-color: #25D366;
+    color: white;
+    border-color: #25D366;
+}
+
+.contact-nav-btn.phone:hover {
+    background-color: var(--accent);
+    color: var(--bg-primary);
+    border-color: var(--accent);
 }

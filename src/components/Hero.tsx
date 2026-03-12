@@ -10,7 +10,7 @@ const Hero = () => {
                     PREMIUM <span className="text-accent">PROTECTION</span> FOR YOUR VEHICLE
                 </h1>
                 <p className="hero-subtitle delay-100">
-                    Experience the ultimate in automotive care with our industry-leading Paint Protection Film, Ceramic Coating, and Custom Auto Upholstery in Dubai.
+                    Experience the ultimate in automotive care with our industry-leading Paint Protection Film, Ceramic Coating, and Car Wrapping in Dubai.
                 </p>
                 <div className="flex justify-center gap-md hero-buttons delay-200">
                     <Link href="#services" className="btn btn-primary">Our Services</Link>

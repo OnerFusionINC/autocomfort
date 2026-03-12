@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-primary' });
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-heading' });
 
 export const metadata: Metadata = {
-  title: 'Autocomfort | Premium Paint Protection Film & Auto Upholstery in Dubai',
-  description: 'Protect your car with Autocomfort—advanced paint protection film, ceramic coating, and premium auto upholstery in Dubai. Superior gloss, scratch resistance, and long-lasting durability.',
+  title: 'Autocomfort | Premium Paint Protection Film & Car Wrapping in Dubai',
+  description: 'Protect your car with Autocomfort—advanced paint protection film, ceramic coating, and premium car wrapping in Dubai. Superior gloss, scratch resistance, and long-lasting durability.',
 };
 
 export default function RootLayout({

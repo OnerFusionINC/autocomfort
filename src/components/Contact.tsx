@@ -8,7 +8,7 @@ const Contact = () => {
                     <div className="contact-info">
                         <h2 className="title">Get In <span className="text-accent">Touch</span></h2>
                         <p className="text-secondary mb-lg">
-                            Looking for a new approach in Auto Upholstery, PPF, or Ceramic Coating? Contact us today for a personalized quote.
+                            Looking for a new approach in Car Wrapping, PPF, or Ceramic Coating? Contact us today for a personalized quote.
                         </p>
 
                         <div className="contact-details">
@@ -63,7 +63,7 @@ const Contact = () => {
                                     <option value="" disabled>Select Service</option>
                                     <option value="ppf">Paint Protection Film (PPF)</option>
                                     <option value="ceramic">Ceramic Coating</option>
-                                    <option value="upholstery">Auto Upholstery</option>
+                                    <option value="wrapping">Car Wrapping</option>
                                     <option value="other">Other</option>
                                 </select>
                             </div>

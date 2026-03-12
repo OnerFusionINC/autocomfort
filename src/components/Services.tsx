@@ -12,9 +12,9 @@ const servicesOptions = [
         icon: '✨',
     },
     {
-        title: 'Custom Auto Upholstery',
-        description: 'Specializing in personalized vehicle seats, dashboards, steering wheels, doors, and comprehensive car interior restoration since 1991.',
-        icon: '💺',
+        title: 'Car Wrapping',
+        description: 'Transform your vehicle\'s appearance with premium vinyl wraps. Choose from a wide range of colors and finishes for a stunning, custom look.',
+        icon: '🚗',
     }
 ];
 
