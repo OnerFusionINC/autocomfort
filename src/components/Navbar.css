@@ -57,6 +57,51 @@
     width: 100%;
 }
 
+.nav-contact-icons {
+    position: fixed;
+    top: var(--spacing-sm);
+    left: var(--spacing-sm);
+    display: flex;
+    gap: var(--spacing-sm);
+    z-index: 1050; /* Higher than navbar */
+}
+
+.contact-nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px; /* Slightly larger for easier tapping */
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--bg-glass);
+    color: var(--text-primary);
+    transition: all var(--transition-fast);
+    border: 1px solid var(--border);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-md);
+}
+
+.contact-nav-btn:hover {
+    transform: scale(1.1); /* Scale up instead of translate for floating buttons */
+    box-shadow: var(--shadow-lg);
+}
+
+.contact-nav-btn.whatsapp {
+    background-color: #25D366;
+    color: white;
+    border-color: #25D366;
+}
+
+.contact-nav-btn.phone {
+    background-color: var(--accent);
+    color: var(--bg-primary);
+    border-color: var(--accent);
+}
+
+.contact-nav-btn.whatsapp:hover, .contact-nav-btn.phone:hover {
+    filter: brightness(1.1);
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -66,40 +111,18 @@
     .logo a {
         font-size: 1.2rem;
     }
-}
 
-.nav-contact-icons {
-    display: flex;
-    gap: var(--spacing-sm);
-    margin-right: var(--spacing-sm);
-}
+    .nav-contact-icons {
+        top: auto;
+        bottom: var(--spacing-md);
+        left: var(--spacing-md);
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
 
-.contact-nav-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.05);
-    color: var(--text-primary);
-    transition: all var(--transition-fast);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.contact-nav-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.contact-nav-btn.whatsapp:hover {
-    background-color: #25D366;
-    color: white;
-    border-color: #25D366;
-}
-
-.contact-nav-btn.phone:hover {
-    background-color: var(--accent);
-    color: var(--bg-primary);
-    border-color: var(--accent);
+    .contact-nav-btn {
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    }
 }
