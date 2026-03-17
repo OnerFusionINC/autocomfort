@@ -88,7 +88,7 @@
 }
 
 .phone-float {
-    top: 85px; /* Positioned below the typical header/nav area */
+    top: 20px; /* Aligned with WhatsApp in the same line */
     right: 20px;
     background-color: var(--accent);
     color: var(--bg-primary);
@@ -121,7 +121,7 @@
     }
 
     .phone-float {
-        top: 75px;
+        top: 15px; /* Aligned with WhatsApp on mobile */
         right: 15px;
     }
 }
