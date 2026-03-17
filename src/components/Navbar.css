@@ -116,12 +116,12 @@
     }
 
     .whatsapp-float {
-        top: 15px;
+        top: 70px; /* Moved down to clear logo */
         left: 15px;
     }
 
     .phone-float {
-        top: 15px; /* Aligned with WhatsApp on mobile */
+        top: 70px; /* Aligned with WhatsApp on mobile */
         right: 15px;
     }
 }
