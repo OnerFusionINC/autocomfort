@@ -1,8 +1,8 @@
 .hero {
     position: relative;
     min-height: 100vh;
-    /* Using a dark gradient as fallback if image isn't loaded */
-    background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.9)),
+    /* Reduced overlay opacity (from 0.8/0.9 to 0.4/0.6) for better visibility */
+    background: linear-gradient(rgba(10, 10, 10, 0.4), rgba(10, 10, 10, 0.6)),
         url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;
     padding-top: 80px;
     /* Accounts for navbar */
@@ -14,7 +14,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, transparent 0%, var(--bg-primary) 100%);
+    /* Pushed the central transparency further out */
+    background: radial-gradient(circle at center, transparent 30%, var(--bg-primary) 100%);
     pointer-events: none;
 }
 
@@ -30,16 +31,17 @@
     margin-bottom: var(--spacing-md);
     letter-spacing: 2px;
     line-height: 1.1;
-    text-shadow: var(--shadow-md);
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-subtitle {
     font-size: clamp(1rem, 2vw, 1.25rem);
-    color: var(--text-secondary);
+    color: #e0e0e0; /* Brighter secondary text for contrast */
     margin-bottom: var(--spacing-xl);
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
 }
 
 .hero-buttons {
