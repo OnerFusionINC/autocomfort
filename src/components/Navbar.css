@@ -66,7 +66,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    z-index: 1050;
+    z-index: 990; /* Lower than navbar (1000) */
     transition: all var(--transition-normal);
     backdrop-filter: blur(10px);
     border: 1px solid var(--border);
@@ -80,7 +80,7 @@
 }
 
 .whatsapp-float {
-    top: 20px;
+    top: 110px; /* Positioned below the navbar height (~92px) */
     left: 20px;
     background-color: #25D366;
     color: white;
@@ -88,7 +88,7 @@
 }
 
 .phone-float {
-    top: 20px; /* Aligned with WhatsApp in the same line */
+    top: 110px; /* Aligned with WhatsApp in the same line */
     right: 20px;
     background-color: var(--accent);
     color: var(--bg-primary);
@@ -116,12 +116,12 @@
     }
 
     .whatsapp-float {
-        top: 70px; /* Moved down to clear logo */
+        top: 100px; /* Moved down further to clear navbar completely */
         left: 15px;
     }
 
     .phone-float {
-        top: 70px; /* Aligned with WhatsApp on mobile */
+        top: 100px; /* Aligned with WhatsApp on mobile */
         right: 15px;
     }
 }
