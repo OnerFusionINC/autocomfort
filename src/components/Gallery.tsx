@@ -21,7 +21,7 @@ const Gallery = () => {
                 <div className="gallery-grid">
                     {galleryImages.map((src, index) => (
                         <div key={index} className="gallery-item group">
-                            <img src={src} alt={`Autocomfort Work ${index + 1}`} loading="lazy" />
+                            <img src={src} alt={`Autocomfort Accessories Work ${index + 1}`} loading="lazy" />
                             <div className="gallery-overlay">
                                 <span className="gallery-icon">+</span>
                             </div>

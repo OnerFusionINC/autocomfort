@@ -7,14 +7,14 @@ const servicesOptions = [
         icon: '🛡️', /* In a real app we'd use SVG icons */
     },
     {
-        title: 'Ceramic Coating',
+        title: 'Exterior Ceramic Coating',
         description: 'Ultimate gloss and hydrophobic properties. Keeps your car flawless, making maintenance effortless while providing UV resistance.',
         icon: '✨',
     },
     {
-        title: 'Car Wrapping',
-        description: 'Transform your vehicle\'s appearance with premium vinyl wraps. Choose from a wide range of colors and finishes for a stunning, custom look.',
-        icon: '🚗',
+        title: 'Fabric & leather seats Ceramic Coating',
+        description: 'Protect your interior with advanced ceramic coating for fabric and leather seats. Repels liquids, prevents stains, and preserves the luxurious look.',
+        icon: '💺',
     }
 ];
 

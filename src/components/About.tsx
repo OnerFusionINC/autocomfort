@@ -16,7 +16,7 @@ const About = () => {
                 </div>
 
                 <div className="about-content">
-                    <h2 className="title">About <span className="text-accent">Autocomfort</span></h2>
+                    <h2 className="title">About <span className="text-accent">Autocomfort Accessories</span></h2>
                     <p className="text-secondary mb-md">
                         Founded in 1991, Autocomfort specializes in fully personalized vehicle seats, dashboards, steering wheels, doors and carpets, roofs, convertible soft top roofs, and comprehensive car interior services, glass sun screens.
                     </p>
@@ -28,7 +28,9 @@ const About = () => {
                         <li>Custom Made Leather Seats</li>
                         <li>Starlight Headliner</li>
                         <li>Paint Protection Film (PPF)</li>
-                        <li>Premium Ceramic Coating</li>
+                        <li>Premium Exterior Ceramic Coating</li>
+                        <li>Custom made Car Mats like originals for all car models</li>
+                        <li>Custom made 3d & 7D mats for all car models</li>
                     </ul>
 
                     <div className="stats-row mt-lg">

@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="container flex justify-between items-center navbar-container">
                 <div className="logo">
                     <Link href="/">
-                        AUTO<span className="text-accent">COMFORT</span>
+                        AUTO<span className="text-accent">COMFORT ACCESSORIES</span>
                     </Link>
                 </div>
                 <div className="nav-actions flex items-center gap-sm">

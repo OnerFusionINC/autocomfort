@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer section">
             <div className="container grid grid-cols-3 gap-lg footer-content">
                 <div className="footer-col">
-                    <h3 className="footer-logo">AUTO<span className="text-accent">COMFORT</span></h3>
+                    <h3 className="footer-logo">AUTO<span className="text-accent">COMFORT ACCESSORIES</span></h3>
                     <p className="text-secondary mt-sm">
                         Providing exceptional auto upholstery, premium paint protection film, and
                         ceramic coating in Dubai since 1991.
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <div className="container text-center text-secondary">
-                    <p>&copy; {new Date().getFullYear()} Autocomfort. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Autocomfort Accessories. All rights reserved.</p>
                 </div>
             </div>
         </footer>
