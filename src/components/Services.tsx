@@ -3,7 +3,13 @@ import './Services.css';
 const servicesOptions = [
     {
         title: 'Paint Protection Film (PPF)',
-        description: 'Shields against chips, scratches, stains & debris. Invisible protection that repairs itself and preserves your vehicle value for years.',
+        description: [
+            '"Invisible/ Colored Paint Protection" -',
+            '• "Self-Healing Film"',
+            '"Protect Against Scratches & Rock Chips"',
+            '"Keep Your Car Like New"',
+            '"5-10 Years Warranty"'
+        ],
         icon: '🛡️', /* In a real app we'd use SVG icons */
     },
     {
@@ -32,7 +38,17 @@ const Services = () => {
                         <div key={index} className="card service-card relative group">
                             <div className="service-icon">{service.icon}</div>
                             <h3 className="service-title">{service.title}</h3>
-                            <p className="text-secondary service-desc">{service.description}</p>
+                            <div className="text-secondary service-desc">
+                                {Array.isArray(service.description) ? (
+                                    <ul className="service-features">
+                                        {service.description.map((feature, i) => (
+                                            <li key={i}>{feature}</li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    <p>{service.description}</p>
+                                )}
+                            </div>
                             <div className="service-glow"></div>
                         </div>
                     ))}

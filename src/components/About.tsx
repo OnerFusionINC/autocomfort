@@ -27,7 +27,7 @@ const About = () => {
                     <ul className="feature-list">
                         <li>Custom Made Leather Seats</li>
                         <li>Starlight Headliner</li>
-                        <li>Paint Protection Film (PPF)</li>
+                        <li>Paint Protection Film (PPF) - Invisible/ Colored</li>
                         <li>Premium Exterior Ceramic Coating</li>
                         <li>Custom made Car Mats like originals for all car models</li>
                         <li>Custom made 3d & 7D mats for all car models</li>

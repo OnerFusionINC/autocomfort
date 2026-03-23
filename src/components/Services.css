@@ -45,6 +45,25 @@
     line-height: 1.6;
 }
 
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-md) 0 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.service-features li {
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    transition: color var(--transition-fast);
+}
+
+.service-card:hover .service-features li {
+    color: var(--text-primary);
+}
+
 .service-card:hover .service-icon {
     transform: scale(1.1) translateY(-5px);
 }

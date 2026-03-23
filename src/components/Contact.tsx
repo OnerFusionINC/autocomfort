@@ -8,7 +8,7 @@ const Contact = () => {
                     <div className="contact-info">
                         <h2 className="title">Get In <span className="text-accent">Touch</span></h2>
                         <p className="text-secondary mb-lg">
-                            Looking for a new approach in Fabric & leather seats Ceramic Coating, PPF, or Exterior Ceramic Coating? Contact us today for a personalized quote.
+                            Looking for a new approach in Fabric & leather seats Ceramic Coating, Paint Protection Film (PPF), or Exterior Ceramic Coating? Contact us today for a personalized quote.
                         </p>
 
                         <div className="contact-details">
@@ -61,7 +61,7 @@ const Contact = () => {
                             <div className="form-group">
                                 <select required defaultValue="">
                                     <option value="" disabled>Select Service</option>
-                                    <option value="ppf">Paint Protection Film (PPF)</option>
+                                    <option value="ppf">Paint Protection Film (PPF) - Invisible/ Colored</option>
                                     <option value="ceramic">Exterior Ceramic Coating</option>
                                     <option value="interior_ceramic">Fabric & leather seats Ceramic Coating</option>
                                     <option value="other">Other</option>
