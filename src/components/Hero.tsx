@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import './Hero.css';
+import heroBg from '../../public/hero-bg.jpg';
 
 const Hero = () => {
     return (
         <section className="hero flex items-center justify-center">
             <Image 
-                src="/hero-bg.jpg" 
+                src={heroBg} 
                 alt="Premium Car Protection" 
                 fill 
                 priority 

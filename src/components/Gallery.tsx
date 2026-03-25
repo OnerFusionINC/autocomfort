@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import './Gallery.css';
+import galleryImg1 from '../../public/gallery-1.jpg';
+import galleryImg4 from '../../public/gallery-4.png';
 
 const galleryImages = [
-    '/gallery-1.jpg',
+    galleryImg1,
     'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=800&auto=format&fit=crop',
     'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop',
-    '/gallery-4.png',
+    galleryImg4,
     'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=800&auto=format&fit=crop',
     'https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?q=80&w=800&auto=format&fit=crop',
 ];
