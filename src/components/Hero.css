@@ -1,9 +1,7 @@
 .hero {
     position: relative;
     min-height: 100vh;
-    /* Reduced overlay opacity (from 0.8/0.9 to 0.4/0.6) for better visibility */
-    background: linear-gradient(rgba(10,10,10,0.4), rgba(10,10,10,0.6)),
-        url('../../public/hero-bg.jpg') center/cover no-repeat;
+    background-color: var(--bg-primary);
     padding-top: 80px;
     /* Accounts for navbar */
 }

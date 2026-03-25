@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import './Gallery.css';
 
 const galleryImages = [
@@ -21,7 +22,7 @@ const Gallery = () => {
                 <div className="gallery-grid">
                     {galleryImages.map((src, index) => (
                         <div key={index} className="gallery-item group">
-                            <img src={src} alt={`Autocomfort Accessories Work ${index + 1}`} loading="lazy" />
+                            <Image src={src} alt={`Autocomfort Accessories Work ${index + 1}`} width={800} height={800} className="gallery-img" />
                             <div className="gallery-overlay">
                                 <span className="gallery-icon">+</span>
                             </div>

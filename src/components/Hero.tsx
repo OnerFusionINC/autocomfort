@@ -1,9 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import './Hero.css';
 
 const Hero = () => {
     return (
         <section className="hero flex items-center justify-center">
+            <Image 
+                src="/hero-bg.jpg" 
+                alt="Premium Car Protection" 
+                fill 
+                priority 
+                className="hero-bg-image"
+                style={{ objectFit: 'cover', zIndex: -1 }}
+            />
             <div className="hero-overlay"></div>
             <div className="container hero-content text-center animate-fade-in">
                 <h1 className="hero-title">
