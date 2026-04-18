@@ -18,7 +18,10 @@ const Footer = () => {
                     <h4 className="footer-heading">Contact Details</h4>
                     <ul className="footer-links">
                         <li><strong>Address:</strong> Al Quoz Industrial Area 1, Dubai, PO.Box: 1234, UAE</li>
-                        <li><strong>Phone:</strong> (+971) 55 653 2991</li>
+                        <li className="flex items-center gap-xs">
+                            <strong>Phone:</strong> 
+                            <a href="tel:+971556532991" className="hover:text-accent transition-colors">(+971) 55 653 2991</a>
+                        </li>
                         <li className="flex items-center gap-xs">
                             <strong>WhatsApp:</strong>
                             <a href="https://wa.me/971558362115" target="_blank" rel="noopener noreferrer" className="flex items-center gap-xs hover:text-accent transition-colors">
@@ -26,7 +29,10 @@ const Footer = () => {
                                 (+971) 55 836 2115
                             </a>
                         </li>
-                        <li><strong>Email:</strong> autocomfortuae@gmail.com</li>
+                        <li className="flex items-center gap-xs">
+                            <strong>Email:</strong> 
+                            <a href="mailto:autocomfortuae@gmail.com" className="hover:text-accent transition-colors">autocomfortuae@gmail.com</a>
+                        </li>
                     </ul>
                 </div>
 

@@ -33,7 +33,9 @@ const Contact = () => {
                             </div>
 
                             <div className="contact-item">
-                                <span className="contact-icon">📞</span>
+                                <a href="tel:+971556532991" className="contact-icon flex items-center justify-center p-0 overflow-hidden bg-transparent" aria-label="Call Us">
+                                    <span style={{ fontSize: '1.2rem' }}>📞</span>
+                                </a>
                                 <div>
                                     <h4>Call Us</h4>
                                     <a href="tel:+971556532991" className="text-secondary hover:text-accent transition-colors">(+971) 55 653 2991</a>
@@ -53,10 +55,12 @@ const Contact = () => {
                             </div>
 
                             <div className="contact-item">
-                                <span className="contact-icon">✉️</span>
+                                <a href="mailto:autocomfortuae@gmail.com" className="contact-icon flex items-center justify-center p-0 overflow-hidden bg-transparent" aria-label="Email">
+                                    <span style={{ fontSize: '1.2rem' }}>✉️</span>
+                                </a>
                                 <div>
                                     <h4>Email</h4>
-                                    <p className="text-secondary">autocomfortuae@gmail.com</p>
+                                    <a href="mailto:autocomfortuae@gmail.com" className="text-secondary hover:text-accent transition-colors">autocomfortuae@gmail.com</a>
                                 </div>
                             </div>
                         </div>
