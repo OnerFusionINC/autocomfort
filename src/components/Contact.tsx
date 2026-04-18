@@ -14,9 +14,19 @@ const Contact = () => {
                         <div className="contact-details">
                             <div className="contact-item">
                                 <span className="contact-icon">📍</span>
-                                <div>
+                                <div className="w-full">
                                     <h4>Location</h4>
-                                    <p className="text-secondary">Autocomfort Accessories, Al Quoz Industrial Area 1, Dubai, PO.Box: 1234, UAE</p>
+                                    <p className="text-secondary mb-sm">Autocomfort Accessories, Al Quoz Industrial Area 1, Dubai, PO.Box: 1234, UAE</p>
+                                    <iframe 
+                                        src="https://maps.google.com/maps?q=Auto-comfort+Accessories,+Dubai&output=embed" 
+                                        width="100%" 
+                                        height="150" 
+                                        style={{ border: 0, borderRadius: '8px', marginTop: '8px' }} 
+                                        allowFullScreen 
+                                        loading="lazy" 
+                                        referrerPolicy="no-referrer-when-downgrade"
+                                        title="Autocomfort Accessories Location">
+                                    </iframe>
                                 </div>
                             </div>
 
