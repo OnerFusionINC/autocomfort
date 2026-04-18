@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import whatsappIcon from '../../public/whatsapp-icon.png';
 import './Contact.css';
 
 const Contact = () => {
@@ -34,15 +36,19 @@ const Contact = () => {
                                 <span className="contact-icon">📞</span>
                                 <div>
                                     <h4>Call Us</h4>
-                                    <p className="text-secondary">(+971) 55 653 2991</p>
+                                    <a href="tel:+971556532991" className="text-secondary hover:text-accent transition-colors">(+971) 55 653 2991</a>
                                 </div>
                             </div>
 
                             <div className="contact-item">
-                                <span className="contact-icon">💬</span>
+                                <a href="https://wa.me/971558362115" target="_blank" rel="noopener noreferrer" className="contact-icon flex items-center justify-center p-0 overflow-hidden bg-transparent">
+                                    <Image src={whatsappIcon} alt="WhatsApp" width={40} height={40} />
+                                </a>
                                 <div>
                                     <h4>WhatsApp</h4>
-                                    <p className="text-secondary">(+971) 55 836 2115</p>
+                                    <a href="https://wa.me/971558362115" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition-colors">
+                                        (+971) 55 836 2115
+                                    </a>
                                 </div>
                             </div>
 

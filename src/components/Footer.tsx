@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import whatsappIcon from '../../public/whatsapp-icon.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -17,7 +19,13 @@ const Footer = () => {
                     <ul className="footer-links">
                         <li><strong>Address:</strong> Al Quoz Industrial Area 1, Dubai, PO.Box: 1234, UAE</li>
                         <li><strong>Phone:</strong> (+971) 55 653 2991</li>
-                        <li><strong>WhatsApp:</strong> (+971) 55 836 2115</li>
+                        <li className="flex items-center gap-xs">
+                            <strong>WhatsApp:</strong>
+                            <a href="https://wa.me/971558362115" target="_blank" rel="noopener noreferrer" className="flex items-center gap-xs hover:text-accent transition-colors">
+                                <Image src={whatsappIcon} alt="WhatsApp" width={20} height={20} className="inline-block" />
+                                (+971) 55 836 2115
+                            </a>
+                        </li>
                         <li><strong>Email:</strong> autocomfortuae@gmail.com</li>
                     </ul>
                 </div>
