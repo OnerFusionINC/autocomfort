@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <div className="container text-center text-secondary">
-                    <p>&copy; {new Date().getFullYear()} Autocomfort Accessories. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Autocomfort Accessories. All rights reserved. | Designed by <a href="https://www.onerfusion.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline transition-colors">OnerFusion</a></p>
                 </div>
             </div>
         </footer>
