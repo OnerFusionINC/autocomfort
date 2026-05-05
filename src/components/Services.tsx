@@ -1,4 +1,8 @@
+import Image from 'next/image';
 import './Services.css';
+import blackImg from '../../public/black.jpeg';
+import yellowImg from '../../public/yellow.jpeg';
+import redImg from '../../public/red.jpeg';
 
 const servicesOptions = [
     {
@@ -10,17 +14,17 @@ const servicesOptions = [
             '"Keep Your Car Like New"',
             '"5-10 Years Warranty"'
         ],
-        icon: '🛡️', /* In a real app we'd use SVG icons */
+        image: blackImg,
     },
     {
         title: 'Exterior Ceramic Coating',
         description: 'Ultimate gloss and hydrophobic properties. Keeps your car flawless, making maintenance effortless while providing UV resistance.',
-        icon: '✨',
+        image: yellowImg,
     },
     {
         title: 'Fabric & leather seats Ceramic Coating',
         description: 'Protect your interior with advanced ceramic coating for fabric and leather seats. Repels liquids, prevents stains, and preserves the luxurious look.',
-        icon: '💺',
+        image: redImg,
     }
 ];
 
@@ -36,7 +40,9 @@ const Services = () => {
                 <div className="grid grid-cols-3 gap-lg mt-xl">
                     {servicesOptions.map((service, index) => (
                         <div key={index} className="card service-card relative group">
-                            <div className="service-icon">{service.icon}</div>
+                            <div className="service-image-container">
+                                <Image src={service.image} alt={service.title} width={400} height={400} className="service-image" />
+                            </div>
                             <h3 className="service-title">{service.title}</h3>
                             <div className="text-secondary service-desc">
                                 {Array.isArray(service.description) ? (
