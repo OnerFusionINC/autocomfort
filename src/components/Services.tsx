@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import './Services.css';
-import blackImg from '../../public/black.jpeg';
-import yellowImg from '../../public/yellow.jpeg';
-import redImg from '../../public/red.jpeg';
+import service3Img from '../../public/service-3.jpg'; // Black Porsche wiped down (PPF)
+import service2Img from '../../public/service-2.jpg'; // Sponge with ceramic coating (Exterior)
+import service1Img from '../../public/service-1.jpg'; // Car seat before/after (Interior)
 
 const servicesOptions = [
     {
@@ -14,17 +14,17 @@ const servicesOptions = [
             '"Keep Your Car Like New"',
             '"5-10 Years Warranty"'
         ],
-        image: blackImg,
+        image: service3Img,
     },
     {
         title: 'Exterior Ceramic Coating',
         description: 'Ultimate gloss and hydrophobic properties. Keeps your car flawless, making maintenance effortless while providing UV resistance.',
-        image: yellowImg,
+        image: service2Img,
     },
     {
         title: 'Fabric & leather seats Ceramic Coating',
         description: 'Protect your interior with advanced ceramic coating for fabric and leather seats. Repels liquids, prevents stains, and preserves the luxurious look.',
-        image: redImg,
+        image: service1Img,
     }
 ];
 
