@@ -12,7 +12,7 @@ const Hero = () => {
                 fill 
                 priority 
                 className="hero-bg-image"
-                style={{ objectFit: 'cover', zIndex: -1 }}
+                style={{ objectFit: 'cover' }}
             />
             <div className="hero-overlay"></div>
             <div className="container hero-content text-center animate-fade-in">
