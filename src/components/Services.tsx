@@ -14,12 +14,12 @@ const servicesOptions = [
             '"Keep Your Car Like New"',
             '"5-10 Years Warranty"'
         ],
-        image: service3Img,
+        image: service2Img,
     },
     {
         title: 'Exterior Ceramic Coating',
         description: 'Ultimate gloss and hydrophobic properties. Keeps your car flawless, making maintenance effortless while providing UV resistance.',
-        image: service2Img,
+        image: service3Img,
     },
     {
         title: 'Fabric & leather seats Ceramic Coating',
