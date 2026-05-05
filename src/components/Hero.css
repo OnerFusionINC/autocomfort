@@ -12,8 +12,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* Pushed the central transparency further out */
-    background: radial-gradient(circle at center, transparent 30%, var(--bg-primary) 100%);
+    /* Dark overlay in the center, fading into full background color at edges */
+    background: radial-gradient(circle at center, rgba(10, 10, 10, 0.6) 30%, var(--bg-primary) 100%);
     pointer-events: none;
 }
 
