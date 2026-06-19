@@ -22,7 +22,10 @@ const Hero = () => {
                 <p className="hero-subtitle delay-100">
                     Experience the ultimate in automotive care with our industry-leading Paint Protection Film, Exterior Ceramic Coating, and Fabric & leather seats Ceramic Coating in Dubai.
                 </p>
-                <div className="flex justify-center gap-md hero-buttons delay-200">
+                <div className="hero-badge delay-200">
+                    <span className="badge-highlight">5-7 Years Warranty</span> Included on PPF & Coatings
+                </div>
+                <div className="flex justify-center gap-md hero-buttons delay-300">
                     <Link href="#services" className="btn btn-primary">Our Services</Link>
                     <Link href="#contact" className="btn btn-outline">Get a Quote</Link>
                 </div>
