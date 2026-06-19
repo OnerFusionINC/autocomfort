@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import './Navbar.css';
+import logoImg from '../../public/logo.png';
 import whatsappIcon from '../../public/whatsapp-icon.png';
 
 const Navbar = () => {
@@ -26,7 +27,9 @@ const Navbar = () => {
         <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
             <div className="container flex justify-between items-center navbar-container">
                 <div className="logo">
-                    <Link href="/">AUTO<span className="text-accent">COMFORT ACCESSORIES</span></Link>
+                    <Link href="/">
+                        <Image src={logoImg} alt="Autocomfort Accessories" height={48} className="logo-img" priority />
+                    </Link>
                 </div>
 
                 <div className="nav-actions flex items-center gap-sm">

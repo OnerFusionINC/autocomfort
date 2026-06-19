@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import logoImg from '../../public/logo.png';
 import whatsappIcon from '../../public/whatsapp-icon.png';
 import './Footer.css';
 
@@ -7,7 +8,7 @@ const Footer = () => {
         <footer className="footer section">
             <div className="container grid grid-cols-3 gap-lg footer-content">
                 <div className="footer-col">
-                    <h3 className="footer-logo">AUTO<span className="text-accent">COMFORT ACCESSORIES</span></h3>
+                    <Image src={logoImg} alt="Autocomfort Accessories" height={40} className="footer-logo" />
                     <p className="text-secondary mt-sm">
                         Providing exceptional auto upholstery, premium paint protection film, and
                         ceramic coating in Dubai since 1991.
