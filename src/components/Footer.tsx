@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="footer section">
             <div className="container grid grid-cols-3 gap-lg footer-content">
                 <div className="footer-col">
-                    <Image src={logoImg} alt="Autocomfort Accessories" height={40} className="footer-logo" />
+                    <Image src={logoImg} alt="Autocomfort Accessories" height={52} className="footer-logo" />
                     <p className="text-secondary mt-sm">
                         Providing exceptional auto upholstery, premium paint protection film, and
                         ceramic coating in Dubai since 1991.
