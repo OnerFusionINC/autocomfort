@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="215" viewBox="0 0 215 215">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="215" height="215" transform="translate(34 68)" fill="#ffffff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Sound_Speaker" data-name="Sound Speaker" transform="translate(-34 -68)" clip-path="url(#clip-path)">
+    <g id="speaker" transform="translate(34 68)">
+      <path id="Path_1" data-name="Path 1" d="M157.894,19.322H57.119a6.3,6.3,0,0,0-6.3,6.3V176.783a6.3,6.3,0,0,0,6.3,6.3h6.3v6.3a6.3,6.3,0,1,0,12.6,0v-6.3H139v6.3a6.3,6.3,0,1,0,12.6,0v-6.3h6.3a6.3,6.3,0,0,0,6.3-6.3V25.62a6.3,6.3,0,0,0-6.3-6.3Zm-6.3,151.163H63.417V31.918H151.6Z" fill="#ffffff"/>
+      <path id="Path_2" data-name="Path 2" d="M31.925,82.306a6.3,6.3,0,0,0-6.3,6.3V113.8a6.3,6.3,0,0,0,12.6,0V88.6a6.3,6.3,0,0,0-6.3-6.3Z" fill="#ffffff"/>
+      <path id="Path_3" data-name="Path 3" d="M183.088,82.306a6.3,6.3,0,0,0-6.3,6.3V113.8a6.3,6.3,0,1,0,12.6,0V88.6a6.3,6.3,0,0,0-6.3-6.3Z" fill="#ffffff"/>
+      <path id="Path_4" data-name="Path 4" d="M107.507,158.307a31.492,31.492,0,1,0-31.492-31.492A31.528,31.528,0,0,0,107.507,158.307Zm0-50.388a18.9,18.9,0,1,1-18.9,18.9A18.917,18.917,0,0,1,107.507,107.92Z" fill="#ffffff"/>
+      <path id="Path_5" data-name="Path 5" d="M204.948,55.758a6.3,6.3,0,0,0-11.414,5.329,95.04,95.04,0,0,1,0,80.229,6.3,6.3,0,1,0,11.414,5.329,107.753,107.753,0,0,0,0-90.887Z" fill="#ffffff"/>
+      <path id="Path_6" data-name="Path 6" d="M18.436,52.716a6.3,6.3,0,0,0-8.372,3.043,107.625,107.625,0,0,0,0,90.887,6.3,6.3,0,0,0,11.414-5.329,95.04,95.04,0,0,1,0-80.229,6.3,6.3,0,0,0-3.043-8.371Z" fill="#ffffff"/>
+      <path id="Path_7" data-name="Path 7" d="M107.507,82.726a18.9,18.9,0,1,0-18.9-18.9A18.917,18.917,0,0,0,107.507,82.726Zm0-25.194a6.3,6.3,0,1,1-6.3,6.3A6.306,6.306,0,0,1,107.507,57.532Z" fill="#ffffff"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="6.298" cy="6.298" r="6.298" transform="translate(101.208 120.097)" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>
